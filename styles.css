@@ -1,0 +1,141 @@
+
+        /* إعدادات صفحة الموقع */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2C3E50;
+            color: #fff;
+        }
+
+        header {
+            background-color: #1F2A44;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+            color: #ECF0F1;
+        }
+
+        header p {
+            font-size: 24px;
+            font-style: italic;
+            color: #BDC3C7;
+        }
+
+        /* قسم عن الإمام علي */
+        #about {
+            background-color: #2980B9;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        #about h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        #about p {
+            font-size: 20px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        /* قسم أقوال الإمام علي */
+        #quotes {
+            padding: 60px 20px;
+            background-color: #34495E;
+            color: #ecf0f1;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .quote {
+            margin: 20px;
+            font-size: 26px;
+            font-style: italic;
+            color: #f39c12;
+            border-left: 5px solid #f39c12;
+            padding-left: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .quote:hover {
+            transform: scale(1.05);
+            background-color: #34495E;
+        }
+
+        /* روابط التواصل الاجتماعي */
+        .social-links a {
+            margin: 0 20px;
+            color: #2980B9;
+            font-size: 24px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #f39c12;
+        }
+
+        /* تذييل الصفحة */
+        footer {
+            background-color: #1F2A44;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+            font-size: 18px;
+        }
+
+        /* جعل الصور أكثر وضوحًا */
+        img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 8px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        /* معرض الصور */
+        #gallery {
+            padding: 60px 20px;
+            background-color: #2C3E50;
+            text-align: center;
+        }
+
+        #gallery h2 {
+            font-size: 36px;
+            color: #ecf0f1;
+            margin-bottom: 30px;
+        }
+
+        .gallery-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .gallery-item {
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item img:hover {
+            transform: scale(1.1);
+        }
